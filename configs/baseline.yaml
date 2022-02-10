@@ -1,0 +1,4 @@
+batch_size: 32
+lr: 0.001
+n_mfcc: 13
+n_segments: 5
