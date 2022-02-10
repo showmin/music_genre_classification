@@ -2,9 +2,11 @@
 
 A Python practice project for music genre classification. As the definition given by [GTZAN dataset](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification), 10 classes (blues, classical, country, disco, hiphop, jazz, metal, pop, teggae, rock) are presented in the dataset and each has 100 sound clips.
 
-```wiki
-Note that there is a broken clip in jazz (jazz.00054.wav) and you'd better remove it from your dataset to make the process go well.
-```
+---
+
+**Note** that there is a broken clip in jazz (jazz.00054.wav) and you'd better remove it from your dataset to make the process go well.
+
+---
 
 In this project, I focused on training different machine learning models by applying mfcc coefficients of the training set and evaluating the performance.
 
