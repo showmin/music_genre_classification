@@ -38,12 +38,16 @@ In this project, I focused on training different machine learning models by appl
 | n_mfcc                           | 13              |
 | n_segments                       | 5               |
 
-#### Results
+#### Results (run on Colab)
 
-| Model                           | Accuracy     |
-| ------------------------------- | ------------ |
-| FCN                             | 50 - 52%     |
-| FCN (p=0.3, weight_decay=0.001) | 58%          |
-| CNN1, CNN2, CNN_Add             | 59.2 - 60.4% |
-|                                 |              |
+| Model                                              | Accuracy     |
+| -------------------------------------------------- | ------------ |
+| FCN                                                | 50 - 52%     |
+| FCN (p=0.3, weight_decay=0.001)                    | 58%          |
+| CNN1, CNN2 (initial weights), CNN_Add (add_module) | 59.2 - 60.4% |
+| res1                                               | 60.4%        |
+| CRNN (p=0.75)                                      | 83.6%        |
 
+p: dropout ratio
+
+weight_decay: regularization factor
