@@ -19,11 +19,11 @@ In this project, I focused on training different machine learning models by appl
    JSON_PATH = "predata.json"
    ```
 
-2. Generate the mfcc json file.
+2. Generate the mfcc json file.  
    ```python preproc.py```
 
-3. Run the program by a specific model.
-   ```python main.py --model crnn```
+3. Run the program by a specific model.  
+   ```python main.py --model crnn```  
    If you have different json path, remember to edit line 188 to 192 in ```main.py```.
 
 4. Have fun.
